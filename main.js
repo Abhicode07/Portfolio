@@ -19,7 +19,7 @@ const projects = [
     name: 'Food Hunt',
     subheader1: 'UI/UX',
     description:
-      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it 1960s ',
+      'A Food Hunt named website web design by using UI/UX on Figma ',
     image: 'images/work-image-5.png',
     imageDesktop: '../images/Snapshoot Portfolio(6).png',
     technologies: ['Figma', 'Ux', 'Ui'],
@@ -30,33 +30,33 @@ const projects = [
     name: 'Redux',
     subheader1: 'Website',
     description:
-      'Project desc Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the1500, when an unknown printer took a galley of type and scrambled it 1960s.',
+      'Redux is the website for computer science aspirational students from colleges and schools which helps them to find the events updates, jobs/internships opportunities, courses updates and etc',
     image: 'images/work-image-6.png',
     technologies: ['html', 'css', 'JavaScript', 'github'],
-    link: 'https://github.com/pawarspeaks/REDUX',
-    source: 'https://github.com/pawarspeaks/REDUX',
+    link: 'https://abhicode07.github.io/Redux-Webpage/',
+    source: 'https://abhicode07.github.io/Redux-Webpage/',
   },
   {
     id: 3,
     name: 'Computer Networking',
     subheader1: 'Certification',
     description:
-      ' Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. scrambled it 1960s with the relea',
+      ' This course is about a full overview of computer networking. I have covered everything from the fundamentals of modern networking technologies and protocols to an overview of the cloud to practical applications and network troubleshooting. ',
     image: 'images/work-image-7.png',
     technologies: ['Bits By Bytes'],
-    link: 'https://github.com/AlaaShaheen2/Portfolio--mobile-version-week1',
-    source: 'https://github.com/AlaaShaheen2/Portfolio--mobile-version-week1',
+    link: 'https://drive.google.com/file/d/1EP9TJuzeSosuYNiwQbsjART4HI2haa4C/view?usp=sharing',
+    source: 'https://drive.google.com/file/d/1EP9TJuzeSosuYNiwQbsjART4HI2haa4C/view?usp=sharing',
   },
   {
     id: 4,
     name: 'FOSSASIA by MICROSOFT',
     subheader1: 'Certification',
     description:
-      'Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley.',
+      'Cetification of completion by the event by Microsoft by Fossasia CLoud Skills Challenge is about the .',
     image: 'images/work-image-8.png',
     technologies: ['Cloud Skills Challenge'],
-    link: 'https://github.com/AlaaShaheen2/Portfolio--mobile-version-week1',
-    source: 'https://github.com/AlaaShaheen2/Portfolio--mobile-version-week1',
+    link: 'https://drive.google.com/file/d/19D5uEE1WuUPm7ftEdHmrOpFLwLQzHo1h/view?usp=sharing',
+    source: 'https://drive.google.com/file/d/19D5uEE1WuUPm7ftEdHmrOpFLwLQzHo1h/view?usp=sharing',
   },
 ];
 
