@@ -29,8 +29,9 @@
   }
   
   a {
+    line-height: 1px;
     text-decoration: none;
-    color: #344563;
+    color: black;
   }
   
   label {
@@ -126,8 +127,8 @@
     -webkit-text-fill-color: transparent;
     animation: textclip 2s linear infinite;
     display: inline-block;
-    font-size: 40px;
-    margin-left: -30px;
+    font-size: 30px;
+    margin-left: 0px;
   }
   
   @keyframes textclip {
@@ -142,9 +143,10 @@
     font-size: 16px;
     text-align: left;
     line-height: 24px;
-    color: #344563;
+    color: #414442;
     margin: 12px 0;
-    margin-left: 70px;
+    margin-left: 100px;
+    
   }
   
   .letsconnect {
@@ -153,8 +155,20 @@
     font-family: "Poppins", sans-serif,;
     font-weight: 500;
     font-size: 25px;
+    line-height: 1px;
+    margin-left: 100px;
+
+  }
+  .mail {
+    overflow: hidden;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    text-align: left;
     line-height: 24px;
-    margin-left: 70px;
+    color: rgb(13, 12, 12);
+    margin: 12px 0;
+    margin-left: 100px;
+    text-decoration: underline;
 
   }
   
@@ -173,24 +187,47 @@
   .socialmedia-list {
     display:flex;
     flex-direction: row;
-    margin-left: 70px;
+    margin-left: 100px;
     border-image:space;
+    
 
   }
 
 
-  .socialmedia-list2 {
-    display: flex;
-    flex-direction: row;
-    margin-left: 0px;
-
-  }
+  
   
   .socials {
     margin-right: 1rem;
     color: #b87613;
+    font-size: 10px;
    
   }
+
+
+  .insta img{
+    margin-right: 1rem;
+    color: #b87613;
+    font-size: 10px;
+    height: 40px;
+    width : 40px;
+    top: 100px;
+    color: #000;
+    margin-bottom: 100px;
+    margin-top: -8px;
+    margin-left: -8px;
+    
+   
+  }
+
+  .insta {
+    padding-bottom: 1000px;
+    margin-bottom: 100px;
+    display: flex;
+    bottom: 1000px;
+    
+   
+  }
+
   
   .container {
     display: flex;
@@ -318,7 +355,7 @@
     border: solid 1px #6070ff;
     color: #6070ff;
     border-radius: 10px;
-    margin: 20px 0 10px 20px !important;
+    margin: 2px 0 10px 325px !important;
     padding: 12px;
     background-color: #fff;
     width: fit-content;
@@ -454,16 +491,7 @@
     margin: 8px 0 12px;
   }
   
-  .contact-form {
-    background-image: url(./images/background2.png);
-    background-color: #6070ff;
-    background-repeat: no-repeat;
-    background-size: 70%;
-    background-position-x: right;
-    background-position-y: 70px;
-    border-radius: 90px 0 0 0;
-    padding-top: 200px;
-  }
+  
   
   .pic-frame {
     margin-left: 350px;
@@ -536,12 +564,14 @@
   
   .text-area {
     width: 100%;
-    height: 160px;
+    height: 100px;
     margin-bottom: 20px;
     background: #fff;
     border: 1px solid #cfd8dc;
     border-radius: 8px;
+    margin-left: 20px;
     padding: 10px 15px;
+    
   }
   
   .contact-bar {
@@ -586,7 +616,100 @@
     label {
       display: none;
     }
-  
+  .sub-title1{
+    font-size: 48px;
+    font-weight: 400;
+    color: #fff;
+    text-shadow: 0 0 10px #00ddff;
+}
+
+.contact-left{
+    flex-basis: 35%;  
+}
+
+.contact-right{
+    flex-basis: 60%;  
+}
+
+
+.contact-left p i{
+    color: #ff004f;
+    margin-right: 15px;
+    font-size: 25px;
+
+}
+
+.contact-left p a{
+    color: #fff;
+    font-size: 16px;
+
+}
+
+
+
+.social-icons{
+    margin-top: 30px;
+}
+
+.social-icons a{
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 15px;
+    color: #ababab;
+    display: inline-block;
+    transition: transform 0.5s;
+
+}
+.social-icons a:hover{
+    color:#ff004f;
+    transform: translateY(-5px);
+}
+.btn.btn2{
+    display: inline-block;
+    background: #d5d4d4;
+    margin-left: -100px;
+}
+
+.contact-right form{
+    width: 100%;
+}
+
+form input, form textarea{
+    width: 100%;
+    border: 0;
+    outline: none;
+    background: #262626;
+    padding: 15px;
+    margin: 15px 0;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 6px;
+    font-family: "Arial", sans-serif;
+
+    
+
+}
+
+form .btn2{
+    padding: 14px 60px;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.copyright{
+    width: 100%;
+    text-align: center;
+    padding: 25px 0;
+    background: #262626;
+    font-weight: 300;
+    margin-top: 20px;
+}
+
+.copyright i{
+    color: #ff004f;
+}
+
     header {
       background: white;
       padding: 0 140px;
@@ -784,6 +907,11 @@
       filter: drop-shadow(20px);
       opacity: 0.95;
     }
+    .image-contain {
+      padding-left: 0;
+      margin-bottom: 502;
+      margin-top: 500;
+    }
   
     .nav-menu .nav-link {
       font-weight: 600;
@@ -864,6 +992,8 @@
       top: 50px;
     }
   }
+  @media only screen and (max-width: 600px){}
+
   
   .btn-x {
     position: absolute;
